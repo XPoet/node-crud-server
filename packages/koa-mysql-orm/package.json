@@ -1,0 +1,28 @@
+{
+  "name": "koa-mysql-orm",
+  "version": "1.0.0",
+  "description": "Koa MySQL ORM Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "koa",
+    "mysql",
+    "orm"
+  ],
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^12.0.1",
+    "sequelize": "^6.37.3",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0"
+  }
+}
