@@ -1,0 +1,21 @@
+{
+  "name": "express-mysql",
+  "version": "1.0.0",
+  "description": "express mysql server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}

@@ -9,7 +9,10 @@ export default [
     languageOptions: {
       globals: {
         console: true,
-        require: true
+        require: true,
+        module: true,
+        process: true,
+        exports: true
       }
     },
     // ignore files
