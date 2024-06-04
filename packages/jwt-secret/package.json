@@ -1,0 +1,12 @@
+{
+  "name": "jwt-secret",
+  "version": "1.0.0",
+  "description": "generate jwt secret",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node index.js"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
